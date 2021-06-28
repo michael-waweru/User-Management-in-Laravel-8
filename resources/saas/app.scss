@@ -1,0 +1,24 @@
+@import "~bootstrap/scss/bootstrap";
+
+$navbar: #140666d3;
+$background: #e9ebeb;
+$text: #3A3C42;
+body{
+    background-color: $background;
+    color: $text;
+}
+h1 {
+    margin-bottom: 30px;
+}
+.navbar{
+    background-color: $navbar;
+    box-shadow: 0 5px 10px 0 rgba(204, 204, 204, 0.7);
+    margin-bottom: 40px;
+    a{
+        color: #f7f8f9;
+    }
+}
+.card {
+    box-shadow: 0 4px 6px rgba(204, 204, 204, 0.8);
+    padding: 25px 40px;
+}
